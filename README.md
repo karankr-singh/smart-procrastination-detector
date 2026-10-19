@@ -261,4 +261,4 @@ For a two-person team, responsibilities can be divided as follows and adjusted a
 
 This project is being developed as an MCA group project to explore Python application development, data processing, productivity analytics, database design, dashboarding, and responsible machine-learning evaluation.
 
-The team intends to document the methodology, assumptions, experiments, results, and limitations transparently. No performance results are claimed until the system has been implemented and evaluated.
+The team intends to document the methodology, assumptions, experiments, results, and limitations transparently. No performance results are claimed until the system has been implemented and evaluated..
