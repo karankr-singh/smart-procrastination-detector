@@ -39,6 +39,23 @@ Instead of judging users or making assumptions about their intentions, SPD surfa
 | **Privacy & Settings** | Profile and timer preferences, consent controls, notifications, data viewer/editor, export, backup, delete-all, and reset |
 | **Experimental ML** | A guarded experiment that evaluates whether historical task data can help estimate which open tasks may become overdue |
 
+## Screenshots
+
+### Dashboard
+![SPD dashboard](docs/screenshots/dashboard.png)
+
+### Task Management
+![Task management](docs/screenshots/tasks.png)
+
+### Subject Management
+![Subject management](docs/screenshots/subjects.png)
+
+### Analytics
+![Productivity analytics](docs/screenshots/analytics.png)
+
+### Weekly Reports
+![Weekly reports](docs/screenshots/reports.png)
+
 ## Explainable Productivity Score
 
 SPD calculates a rolling **7-day productivity score** using normalized components and documented weights.
