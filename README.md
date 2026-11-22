@@ -230,9 +230,8 @@ Run the automated test suite:
 pytest
 ```
 
-The repository currently includes **59 automated tests** covering validation, database constraints and persistence, timer/session logic, tracking consent, scoring edge cases, analytics, ML evaluation safeguards, exports, end-to-end workflows, and headless page rendering.
 
-## Limitations & Honest Status
+## Limitations 
 
 - Windows and macOS tracking could not be exercised in the Linux development environment; platform-specific logic is unit-tested with injected samples.
 - Tracking behaviour depends on operating-system support and should be tested on the target machine.
