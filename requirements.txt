@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 streamlit>=1.40
 SQLAlchemy>=2.0
 pandas>=2.0
@@ -8,3 +9,14 @@ psutil>=5.9
 python-dotenv>=1.0
 reportlab>=4.0
 pytest>=8.0
+=======
+pandas
+numpy
+psutil
+pygetwindow; platform_system == "Windows"
+scikit-learn
+streamlit
+plotly
+sqlalchemy
+pytest
+>>>>>>> 2cf90f4f13d729c3b1f1ba36dce589e1cbbc9b77
