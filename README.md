@@ -1,22 +1,22 @@
-# 🧠 Smart Procrastination Detector (SPD)
+# Smart Procrastination Detector (SPD)
 
 <p align="center">
-  <strong>Understand your study habits. Make your focus count.</strong>
-  <br />
-  A local, privacy-first productivity analytics app that helps students understand their study patterns through focus sessions, transparent scoring, behavioural indicators, and explainable insights.
+ <strong>Understand your study habits. Make your focus count.</strong>
+ <br />
+ A local, privacy-first productivity analytics app that helps students understand their study patterns through focus sessions, transparent scoring, behavioural indicators, and explainable insights.
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.12" />
-  <img src="https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
-  <img src="https://img.shields.io/badge/SQLite-Local%20Database-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
-  <img src="https://img.shields.io/badge/scikit--learn-ML-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
-  <img src="https://img.shields.io/badge/Tests-59%20automated-brightgreen?style=for-the-badge&logo=pytest&logoColor=white" alt="59 automated tests" />
+ <img src="https://img.shields.io/badge/Python-3.12-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python 3.12" />
+ <img src="https://img.shields.io/badge/Streamlit-App-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" />
+ <img src="https://img.shields.io/badge/SQLite-Local%20Database-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" />
+ <img src="https://img.shields.io/badge/scikit--learn-ML-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" alt="scikit-learn" />
+ <img src="https://img.shields.io/badge/Tests-59%20automated-brightgreen?style=for-the-badge&logo=pytest&logoColor=white" alt="59 automated tests" />
 </p>
 
 ---
 
-## 🚀 What is SPD?
+## What is SPD?
 
 Procrastination is not always obvious. It can show up as repeatedly postponed tasks, interrupted focus sessions, unrealistic study plans, or inconsistent routines.
 
@@ -26,20 +26,20 @@ Instead of judging users or making assumptions about their intentions, SPD surfa
 
 > **Built around one idea: productivity should be understood, not judged.**
 
-## ✨ Features
+## Features
 
 | Module | What it offers |
 |---|---|
-| 📊 **Dashboard** | Productivity score and breakdown, daily and weekly statistics, current session, subject split, recent sessions, and personalized insights |
-| ⏱️ **Focus Workspace** | Pomodoro timer, customizable focus and break lengths, subject/task linking, interruption logging, tracking status, and manual session logging |
-| ✅ **Task Management** | Create, edit, complete, and delete tasks; priorities, deadlines, estimates, postponements, overdue detection, filtering, sorting, and search |
-| 📚 **Subject Management** | Subject organization, colour labels, weekly goals, and progress tracking |
-| 📈 **Analytics** | Trends, calendar heatmap, subject comparisons, task charts, focus-by-hour analysis, procrastination indicators, and suggestions |
-| 📄 **Reports** | Daily, weekly, and monthly reports with CSV and PDF export |
-| 🔐 **Privacy & Settings** | Profile and timer preferences, consent controls, notifications, data viewer/editor, export, backup, delete-all, and reset |
-| 🤖 **Experimental ML** | A guarded experiment that evaluates whether historical task data can help estimate which open tasks may become overdue |
+| **Dashboard** | Productivity score and breakdown, daily and weekly statistics, current session, subject split, recent sessions, and personalized insights |
+| **Focus Workspace** | Pomodoro timer, customizable focus and break lengths, subject/task linking, interruption logging, tracking status, and manual session logging |
+| **Task Management** | Create, edit, complete, and delete tasks; priorities, deadlines, estimates, postponements, overdue detection, filtering, sorting, and search |
+| **Subject Management** | Subject organization, colour labels, weekly goals, and progress tracking |
+| **Analytics** | Trends, calendar heatmap, subject comparisons, task charts, focus-by-hour analysis, procrastination indicators, and suggestions |
+| **Reports** | Daily, weekly, and monthly reports with CSV and PDF export |
+| **Privacy & Settings** | Profile and timer preferences, consent controls, notifications, data viewer/editor, export, backup, delete-all, and reset |
+| **Experimental ML** | A guarded experiment that evaluates whether historical task data can help estimate which open tasks may become overdue |
 
-## 🧮 Explainable Productivity Score
+## Explainable Productivity Score
 
 SPD calculates a rolling **7-day productivity score** using normalized components and documented weights.
 
@@ -59,7 +59,7 @@ SPD calculates a rolling **7-day productivity score** using normalized component
 
 The score is a reflection aid, not a scientific measurement or psychological diagnosis. The implementation is in `analytics/scoring.py`.
 
-## 🔍 Behavioural Indicators & Recommendations
+## Behavioural Indicators & Recommendations
 
 The analytics layer looks for observable patterns such as:
 - Repeatedly postponed tasks and deadline extensions.
@@ -71,7 +71,7 @@ Each indicator is designed to show the observed pattern, supporting data, a poss
 
 These are behavioural observations—not diagnoses or claims about a user's intentions.
 
-## 🤖 Machine-Learning Experiment
+## Machine-Learning Experiment
 
 The optional `ml/` module explores whether an open task may end up late, based on historical task records.
 
@@ -90,7 +90,7 @@ The experiment includes safeguards:
 
 Labels are based on observed task outcomes; synthetic labels are not used. The ML module is experimental, and core application features do not depend on it.
 
-## 🔐 Privacy by Design
+## Privacy by Design
 
 Privacy is a core design requirement.
 
@@ -110,7 +110,7 @@ Platform-specific detection is supported where available:
 
 If detection is unsupported, the application reports that limitation and records no fabricated activity values. Use **Settings → Privacy → Test detection** to check support on your machine.
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Technology | Role |
 |---|---|
@@ -122,28 +122,28 @@ If detection is unsupported, the application reports that limitation and records
 | scikit-learn | Machine-learning experiment |
 | pytest | Automated testing |
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```text
 smart-procrastination-detector/
 │
-├── analytics/          # Metrics, scoring, indicators, recommendations
-├── components/         # Reusable UI components and theme
-├── database/           # SQLAlchemy models, DB access, migrations, backups
-├── docs/               # Project documentation
-├── ml/                 # Experimental ML model and evaluation
-├── pages/              # Streamlit application pages
-├── scripts/            # Utility scripts and demo-data generation
-├── services/           # Timer, session, and export services
-├── tests/              # Automated test suite
-├── tracking/           # Consent, idle detection, app categories, tracker
-├── utils/              # Validation, formatting, and state utilities
+├── analytics/ # Metrics, scoring, indicators, recommendations
+├── components/ # Reusable UI components and theme
+├── database/ # SQLAlchemy models, DB access, migrations, backups
+├── docs/ # Project documentation
+├── ml/ # Experimental ML model and evaluation
+├── pages/ # Streamlit application pages
+├── scripts/ # Utility scripts and demo-data generation
+├── services/ # Timer, session, and export services
+├── tests/ # Automated test suite
+├── tracking/ # Consent, idle detection, app categories, tracker
+├── utils/ # Validation, formatting, and state utilities
 │
-├── .streamlit/         # Streamlit configuration
-├── app.py              # Application entry point
-├── config.py           # Application configuration
-├── requirements.txt    # Python dependencies
-└── pytest.ini          # Pytest configuration
+├── .streamlit/ # Streamlit configuration
+├── app.py # Application entry point
+├── config.py # Application configuration
+├── requirements.txt # Python dependencies
+└── pytest.ini # Pytest configuration
 ```
 
 ### Database notes
@@ -152,7 +152,7 @@ The SQLite database uses relational tables for users, subjects, tasks, study ses
 
 Schema changes are versioned through `PRAGMA user_version` and migrations in `database/db.py`.
 
-## ⚡ Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -205,7 +205,7 @@ python scripts/seed_demo.py
 
 Demo data is synthetic and is intended for exploring the application—not for claiming real-world model performance.
 
-## 🧪 Testing
+## Testing
 
 Run the automated test suite:
 
@@ -215,7 +215,7 @@ pytest
 
 The repository currently includes **59 automated tests** covering validation, database constraints and persistence, timer/session logic, tracking consent, scoring edge cases, analytics, ML evaluation safeguards, exports, end-to-end workflows, and headless page rendering.
 
-## ⚠️ Limitations & Honest Status
+## Limitations & Honest Status
 
 - Windows and macOS tracking could not be exercised in the Linux development environment; platform-specific logic is unit-tested with injected samples.
 - Tracking behaviour depends on operating-system support and should be tested on the target machine.
@@ -226,21 +226,21 @@ The repository currently includes **59 automated tests** covering validation, da
 
 The application features described above are implemented in the project. Platform-specific tracking and visual presentation still warrant testing on the machines and environments where the app will be used.
 
-## 👥 The Team
+## The Team
 
-Built with 💻 by:
+Built by:
 
 <table>
-  <tr>
-    <td align="center" width="50%">
-      <strong>Karan Kumar Singh</strong><br />
-      <a href="https://github.com/karankr-singh">@karankr-singh</a>
-    </td>
-    <td align="center" width="50%">
-      <strong>Chirag Yadav</strong><br />
-      <a href="https://github.com/CHIRAG_USERNAME">@CHIRAG_USERNAME</a>
-    </td>
-  </tr>
+ <tr>
+ <td align="center" width="50%">
+ <strong>Karan Kumar Singh</strong><br />
+ <a href="https://github.com/karankr-singh">@karankr-singh</a>
+ </td>
+ <td align="center" width="50%">
+ <strong>Chirag Yadav</strong><br />
+ <a href="https://github.com/CHIRAG_USERNAME">@CHIRAG_USERNAME</a>
+ </td>
+ </tr>
 </table>
 
 > Replace `CHIRAG_USERNAME` with Chirag's actual GitHub username when available.
@@ -248,7 +248,7 @@ Built with 💻 by:
 ---
 
 <p align="center">
-  <strong>Made for better focus, smarter habits, and more intentional study sessions. 🚀</strong>
-  <br />
-  If you find the project interesting, consider giving it a ⭐
+ <strong>Made for better focus, smarter habits, and more intentional study sessions. </strong>
+ <br />
+ If you find the project interesting, consider giving it a star.
 </p>
