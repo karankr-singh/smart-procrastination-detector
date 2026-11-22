@@ -1,0 +1,42 @@
+[server]
+headless = false
+runOnSave = true
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "viewer"
+
+[theme]
+baseRadius = "large"
+showSidebarBorder = false
+
+# Dark-first palette (use the menu > Settings > Theme to switch to light)
+[theme.dark]
+primaryColor = "#8B7CFF"
+backgroundColor = "#0D0F1E"
+secondaryBackgroundColor = "#151833"
+textColor = "#ECEEFF"
+linkColor = "#7FD6FF"
+borderColor = "#2A2F58"
+greenColor = "#3DDBC0"
+orangeColor = "#FFB86B"
+redColor = "#FF6F91"
+blueColor = "#5AB8FF"
+violetColor = "#8B7CFF"
+chartCategoricalColors = ["#8B7CFF", "#3DDBC0", "#FFB86B", "#FF6F91", "#5AB8FF", "#C792EA", "#9BE564", "#F7768E"]
+
+[theme.light]
+primaryColor = "#5B4CE6"
+backgroundColor = "#F6F5FF"
+secondaryBackgroundColor = "#FFFFFF"
+textColor = "#1A1B3A"
+linkColor = "#2F6FDE"
+borderColor = "#DCDAF5"
+greenColor = "#0E9F85"
+orangeColor = "#D9822B"
+redColor = "#D93F66"
+blueColor = "#2F7FD8"
+violetColor = "#5B4CE6"
+chartCategoricalColors = ["#5B4CE6", "#0E9F85", "#D9822B", "#D93F66", "#2F7FD8", "#9B59B6", "#5FA52B", "#C2410C"]
