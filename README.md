@@ -42,19 +42,19 @@ Instead of judging users or making assumptions about their intentions, SPD surfa
 ## Screenshots
 
 ### Dashboard
-![SPD dashboard](docs/screenshots/dashboard.png)
+<img width="1360" height="631" alt="Screenshot 2026-11-22 144456" src="https://github.com/user-attachments/assets/cd2cdb56-84fb-4f09-b1ba-8329132c19c6" />
 
 ### Task Management
-![Task management](docs/screenshots/tasks.png)
+<img width="1037" height="617" alt="Screenshot 2026-11-22 144546" src="https://github.com/user-attachments/assets/e7e8e33d-997b-4ecf-bb14-7ab9cf16877d" />
 
 ### Subject Management
-![Subject management](docs/screenshots/subjects.png)
+<img width="1017" height="629" alt="Screenshot 2026-11-22 144618" src="https://github.com/user-attachments/assets/1daae0d5-83c1-4432-968a-f01cfa75bb5e" />
 
 ### Analytics
-![Productivity analytics](docs/screenshots/analytics.png)
+<img width="1132" height="632" alt="Screenshot 2026-11-22 144645" src="https://github.com/user-attachments/assets/af777112-f079-417f-9c7b-a21a4363cfa6" />
 
 ### Weekly Reports
-![Weekly reports](docs/screenshots/reports.png)
+<img width="1360" height="624" alt="Screenshot 2026-11-22 144728" src="https://github.com/user-attachments/assets/d88bb61d-84db-45b2-90e5-3b371cda5baa" />
 
 ## Explainable Productivity Score
 
@@ -255,12 +255,11 @@ Built by:
  </td>
  <td align="center" width="50%">
  <strong>Chirag Yadav</strong><br />
- <a href="https://github.com/CHIRAG_USERNAME">@CHIRAG_USERNAME</a>
+ <a href="https://github.com/chiragyadaavv">@chiragyadaavv</a>
  </td>
  </tr>
 </table>
 
-> Replace `CHIRAG_USERNAME` with Chirag's actual GitHub username when available.
 
 ---
 
