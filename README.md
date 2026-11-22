@@ -262,9 +262,3 @@ Built by:
 
 
 ---
-
-<p align="center">
- <strong>Made for better focus, smarter habits, and more intentional study sessions. </strong>
- <br />
- If you find the project interesting, consider giving it a star.
-</p>
