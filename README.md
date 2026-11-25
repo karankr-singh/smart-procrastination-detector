@@ -234,7 +234,7 @@ pytest
 ## Limitations 
 
 - Windows and macOS tracking could not be exercised in the Linux development environment; platform-specific logic is unit-tested with injected samples.
-- Tracking behaviour depends on operating-system support and should be tested on the target machine.
+- Tracking behaviour depends on operating-system support and should be tested on the target machine .
 - Application categories cannot determine what a person is actually doing inside an application.
 - Idle time or application switching alone is not proof of procrastination.
 - ML quality depends on sufficient, representative, labelled task data.
